@@ -17,12 +17,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.kursatkumsuz.component.AuthButton
 import com.kursatkumsuz.component.AuthInputText
 import com.kursatkumsuz.component.AuthPasswordText
-
+@Preview(showBackground = true)
 @Composable
 fun SignUpContent(isLoading: Boolean, isAuthenticated : Boolean, onSignUpClick: (String, String, String) -> Unit, onNavigateSignIn : () -> Unit) {
 
@@ -87,3 +88,5 @@ fun SignUpContent(isLoading: Boolean, isAuthenticated : Boolean, onSignUpClick: 
         }
     }
 }
+
+

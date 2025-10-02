@@ -41,6 +41,7 @@ dependencies {
     implementation libs.android.core.ktx
     implementation libs.appcompat
     implementation libs.material
+    implementation libs.androidx.ui.tooling.preview.android
     testImplementation libs.junit
     implementation libs.compose.ui.util
     implementation libs.compose.material
@@ -66,6 +67,7 @@ dependencies {
     implementation(project(":core:component"))
     implementation(project(":core:domain"))
     implementation(project(":core:util"))
+
 }
 
 
