@@ -23,13 +23,12 @@ import androidx.compose.ui.unit.sp
 import com.kursatkumsuz.component.AuthButton
 import com.kursatkumsuz.component.AuthInputText
 import com.kursatkumsuz.component.AuthPasswordText
-@Preview(showBackground = true)
 @Composable
-fun SignUpContent(isLoading: Boolean, isAuthenticated : Boolean, onSignUpClick: (String, String, String) -> Unit, onNavigateSignIn : () -> Unit) {
+fun SignUpContent(isLoading: Boolean = false, isAuthenticated : Boolean = false, onSignUpClick: (String, String, String) -> Unit, onNavigateSignIn : () -> Unit) {
 
-    var emailState by remember { mutableStateOf("") }
-    var nameState by remember { mutableStateOf("") }
-    var passwordState by remember { mutableStateOf("") }
+    var emailState by remember { mutableStateOf("thai@gmail.com") }
+    var nameState by remember { mutableStateOf("Thai Nguyen") }
+    var passwordState by remember { mutableStateOf("123456") }
 
     Column(
         modifier = Modifier

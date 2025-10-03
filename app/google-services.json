@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "1013352479912",
-    "project_id": "hksoftdoctor",
-    "storage_bucket": "hksoftdoctor.appspot.com"
+    "project_number": "117851707577",
+    "project_id": "composeui-59d2d",
+    "storage_bucket": "composeui-59d2d.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1013352479912:android:6b6584bbdb126c9279d69d",
+        "mobilesdk_app_id": "1:117851707577:android:3e4fd3fe03a3abb03f6368",
         "android_client_info": {
           "package_name": "com.kursatkumsuz.movie"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA3yg-wOhnID02awUVTQ5EFky3np-5TxCw"
+          "current_key": "AIzaSyCAeONv6fROT0etRAon6_8VjyrYF_Hzd4c"
         }
       ],
       "services": {

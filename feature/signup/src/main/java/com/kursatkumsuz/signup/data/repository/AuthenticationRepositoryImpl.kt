@@ -1,9 +1,11 @@
 package com.kursatkumsuz.signup.data.repository
 
 import com.google.android.gms.tasks.Task
-import com.google.firebase.auth.AuthResult
+import com.google.android.gms.tasks.Tasks
 import com.google.firebase.auth.FirebaseAuth
+import com.kursatkumsuz.domain.model.User
 import com.kursatkumsuz.signup.domain.repository.AuthenticationRepository
+import kotlinx.coroutines.delay
 
 class AuthenticationRepositoryImpl(
     private val firebaseAuth: FirebaseAuth,
@@ -19,8 +21,10 @@ class AuthenticationRepositoryImpl(
     override suspend fun signUpWithEmailAndPassword(
         email: String,
         password: String
-    ): Task<AuthResult> {
-        return firebaseAuth.createUserWithEmailAndPassword(email, password)
+    ): Task<User> {
+        //return firebaseAuth.createUserWithEmailAndPassword(email, password)
+        delay(1000)
+        return Tasks.forResult(User(name = "Thai Nguyen", email = email) )
     }
 
 

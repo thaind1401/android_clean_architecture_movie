@@ -9,6 +9,6 @@ interface FirebaseStorageRepository {
     suspend fun saveUser(
         userUid: String,
         user: User
-    ): Task<DocumentReference?>
+    ): Task<User>
 
 }

@@ -63,7 +63,7 @@ dependencies {
 
     implementation(project(":core:util"))
     implementation(project(":core:component"))
-
+    implementation(project(":core:domain"))
 }
 
 kapt {
