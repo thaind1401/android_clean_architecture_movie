@@ -79,7 +79,6 @@ private val DarkColorScheme = darkColorScheme(
     surfaceTint = md_theme_dark_surfaceTint,
 )
 
-@RequiresApi(Build.VERSION_CODES.R)
 @Composable
 fun MovieTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
